@@ -34,7 +34,7 @@
 body {
   font-family: "Noto Sans TC", sans-serif;
   font-family: "Poppins", sans-serif;
-  color: var(--color-light);
+  color: var(--color-dark);
   background: var(--color-light);
   overflow-x: hidden;
 }
@@ -125,4 +125,23 @@ nav .container .create .profile-photo {
 nav .container .create .profile-photo img {
   display: block;
   width: 100%;
+}
+
+main .container {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+main .container .left .profile .profile-photo {
+  width: 2.7rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+main .container .left .profile .profile-photo img {
+  display: block;
+  width: 100%;
+}
+main .container .sideabr {
+  border: 2px solid blue;
 }/*# sourceMappingURL=style.css.map */
